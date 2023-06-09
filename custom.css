@@ -1,0 +1,25 @@
+
+.card {
+    height: 450px;
+}
+
+.card a {
+    border: 1px red solid;
+    color: red;
+    background-color: transparent;
+}
+
+.card a:hover {
+    background-color: red;
+    border: 1px red solid;
+}
+
+.card a:active {
+    background-color: red;
+    border: 1px red solid;
+    box-shadow: none;
+}
+
+.card-success {
+    height: 550px;
+}

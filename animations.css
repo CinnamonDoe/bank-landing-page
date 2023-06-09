@@ -1,0 +1,182 @@
+
+.dropping-card {
+    animation: dropcard 1s forwards;
+}
+
+.lifting-card {
+    animation: liftcard 1s forwards;
+}
+
+.dropping-last-card {
+    animation: dropcard 1s forwards;
+}
+
+
+@keyframes dropcard {
+    from {
+        bottom: 20em;
+    }
+    to {
+        bottom: 0rem;
+    }
+}
+
+@keyframes liftcard {
+    from {
+        top: 10em;
+    }
+    to {
+        top: 0rem;
+    }
+}
+
+
+.benefits-img-left{
+    position: relative;
+}
+
+.benefits-inner-right img{
+    position: relative;
+}
+
+.benefitsanimationright {
+    animation: rightfade 2s forwards;
+}
+
+.benefitsanimationleft {
+    animation: leftfade 2s forwards;
+}
+
+.dark-gradient {
+    position: absolute;
+    height: 1000px;
+    width: 1627px;
+    bottom: 100px;
+    left: 0rem;
+    object-fit: contain;
+    background-image: linear-gradient(transparent, black);
+    opacity: .7;
+}
+
+
+.cardslidein {
+    animation: slidein 2s forwards;
+}
+
+.cardtitle{
+    object-fit: contain;
+    animation: dropin 2s forwards
+}
+
+.listfloat {
+    position: relative;
+    bottom: 12rem;
+    animation: pickup 2s forwards;
+}
+
+.gradient-fade {
+    animation: fadein 2s forwards;
+}
+
+.social:hover {
+    animation: grow .5s forwards;
+}
+
+@keyframes grow {
+    from {
+        font-size: 15px;
+    }
+    to {
+        font-size: 18px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 440px;
+    }
+}
+
+@keyframes pickup {
+    from {
+        opacity: 0;
+        bottom: 1rem;
+    }
+    to {
+        opacity: 1;
+        bottom: 12rem;
+    }
+}
+
+@keyframes dropin {
+    from {
+        opacity: 0;
+        bottom: 68rem;
+    }
+    to {
+        opacity: 1;
+        bottom: 59rem;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes leftfade {
+    from {
+        right: 5rem;
+        opacity: 0
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes rightfade {
+    from {
+        left: 1620px;
+        opacity: 0
+    }
+    to {
+        left: 1220px;
+        opacity: 1;
+    }
+}
+
+.slideleft {
+    position: relative;
+    animation: slideinleft 1s forwards;
+}
+
+.slideright {
+    position: relative;
+    animation: slideinright 1s forwards;
+}
+
+@keyframes slideinleft {
+    from {
+        right: 40rem;
+    }
+    to {
+        right: 0rem;
+    }
+}
+
+@keyframes slideinright {
+    from {
+        left: 40rem;
+    }
+    to {
+        left: 0rem;
+    }
+}

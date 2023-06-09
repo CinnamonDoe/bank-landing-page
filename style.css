@@ -1,0 +1,536 @@
+body { 
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+#logo-img {
+    height: 40px;
+    position: relative;
+    bottom: 8px;
+}
+
+.cubic-bg {
+    transform: scaleX(-1);
+    position: absolute;
+    object-fit: contain;
+    height: 400px;
+    mix-blend-mode: color-burn;
+    opacity: .5;
+}
+
+.top-nav{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(168, 29, 52);
+    bottom: 1px;
+    height: 35px;
+}
+
+.nav-home {
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 5px;
+    top: 1rem;
+}
+
+.nav-item a:hover {
+    background-color: rgb(110, 15, 31);
+}
+
+.nav-item a:active, .nav-item a:visited, .nav-item a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list {
+    align-content: center;
+}
+
+.nav-item {
+    float: right;
+    align-items: center;
+}
+
+.second-nav {
+    margin: 2px;
+    bottom: 1053px;
+    background: rgba(255, 255, 255, 0.5);
+    right: 1px;
+    width: 100%;
+    position: absolute;
+}
+
+
+.nav-list-second {
+    float: left;
+    position: relative;
+    top: 7px;
+}
+
+.sec-nav-item {
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.sec-nav-item a:hover, .sec-nav-item a:visited, .sec-nav-item a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.searchbar {
+    left: 69rem;
+    top: 1px;
+    position: relative;
+}
+
+
+.vid-video {
+    display: absolute;
+    opacity: .9;
+}
+
+.btn, .btn-sec {
+    background-color: transparent;
+    border: none;
+}
+
+.slideshow-container {
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 0rem;
+}
+
+.slideshow-container > h3 {
+    left: 600px;
+    width: 600px;
+    text-align: center;
+    top: 15rem;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    text-shadow: 2px 4px 5px black;
+}
+
+#quotesslide {
+    position: absolute;
+    top: 62rem;
+    width: 100%;
+    font-size: 30px;
+    height: 70px;
+    background-color: navy;
+}
+
+.carousel-item {
+    left: 39rem;
+    top: 10px;
+    position: relative;
+    color: white;
+}
+
+.actions-container {
+    height: 300px;
+    width: 600px;
+    left: 36.5rem;
+    top: 30rem;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+    border: 3px rgb(110, 15, 31) solid;
+    position: absolute;
+    box-shadow: 4px 1px 20px black;
+}
+
+
+.actions-container > h4 {
+    left: 12rem;
+    font-size: 25px;
+    top: 3rem;
+    position: absolute;
+}
+
+.forms-container {
+    opacity: 1;
+    top: 5rem;
+    left: 6.5rem;
+    position: absolute
+}
+
+.action-buttons{
+    position: absolute;
+    top: 5rem; 
+    left: 6rem;
+}
+
+.button-action {
+    height: 50px;
+    width: 90px;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.button-action:hover {
+    border: 2px rgb(220, 240, 47) solid;
+}
+
+.login {
+    background: rgb(168, 29, 52); 
+}
+
+.sign-up {
+    background-color: rgb(22, 58, 179);
+}
+
+.videos {
+    margin: 0;
+}
+
+.vid-video {
+    width: 1800px;
+    bottom: 3rem;
+    list-style: none;
+    position: relative;
+    margin: 0px;
+}
+
+.table-links {
+    grid-template-columns: repeat(3, 100px);
+    position: absolute;
+    grid-gap: 10px;
+    top: 80rem;
+    left: 23rem;
+}
+
+.table-item {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.table-item-3 {
+    height: 300px;
+}
+
+.table-item-2 {
+    top: 1rem;
+}
+
+.im {
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    float: right;
+}
+
+.credit-card-container {
+    position: absolute;
+    height: 1100px;
+    width: 900px;
+    top: 118rem;
+    left: 4rem;
+}
+
+.gradient {
+    position: absolute;
+    height: 1000px;
+    width: 1627px;
+    bottom: 100px;
+    left: 0rem;
+    object-fit: contain;
+    background-image: linear-gradient(rgb(13, 31, 90), rgb(250, 147, 30));
+    mix-blend-mode: color-burn;
+    opacity: .2;
+}
+
+.img-collage {
+    position: relative;
+    object-fit: contain;
+    left: 0px;
+    right: 40px;
+}
+
+.tropical {
+    height: 1000px;
+}
+
+.emerald-card {
+    position: absolute;
+    top: 330px;
+    left: 440px;
+    height: 400px;
+}
+
+.credit-card-container h3 {
+    position: absolute;
+    width: 600px;
+    text-align: center;
+    bottom: 59rem;
+    left: 33rem;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 5px black;
+}
+
+.features-list {
+    position: relative;
+    bottom: 12rem;
+    left: 27rem;
+    width: 1200px;
+}
+
+.feature {
+    display: inline-block;
+    margin: 10px;
+    gap: 5rem;
+    list-style-type: disc;
+    width: 500px;
+    color: white;
+}
+
+.btn-learn {
+    position: absolute;
+    top: 7rem;
+    left: 18rem;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: left 1s;
+}
+
+.btn-learn:hover {
+    background-color: white;
+    color: black;
+    mix-blend-mode: screen;
+    left: 20rem;
+}
+
+.benefits-container {
+    position: absolute;
+    top: 182rem;
+    right: 0px;
+}
+
+.benefits-container h3 {
+    position: relative;
+    left: 50rem;
+}
+
+.benefits-item {
+    list-style: none;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.benefits-inner {
+    display: inline-flex;
+    height: 340px;
+    width: 1730px;
+}
+
+.benefits-inner ul {
+    margin-top: 2rem;
+}
+
+.benefits-inner li {
+    list-style-type: none;
+}
+
+.item-1 {
+    background-color: rgb(168, 29, 52);
+    height: 340px;
+    color: white;
+}
+
+.item-3 {
+    position: relative;
+    background-color: rgb(22, 58, 179);
+    bottom: 16px;
+    color: white;
+}
+
+.item-2 li {
+    position: relative;
+    right: 31rem;
+}
+
+.item-2 img {
+    position: relative;
+    left: 1220px;
+}
+
+.benefits-item img {
+    height: 340px;
+}
+
+.learn-more-btn {
+    float: right;
+    position: relative;
+    top: 5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.lmb-1, .lmb-3 {
+    left: 0px;
+    transition: left 1s;
+    border: 3px solid rgba(255, 255, 255);
+    color: white;
+}
+
+.lmb-1:hover, .lmb-3:hover{
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen;
+    left: 2rem;
+}
+
+.lmb-2 {
+    left: 30rem;
+    border: 3px solid rgb(0, 0, 0);
+    transition: left 1s;
+    color: black;
+}
+
+.lmb-2:hover {
+    left: 32rem;
+    color: white;
+    background-color: black;
+}
+
+
+.success-story-container {
+    position: absolute;
+    top: 256rem;
+    left: 30rem;
+}
+
+.success-story-container h3 {
+    position: relative;
+    left: 4rem;
+}
+
+.success-story {
+    display: inline-block;
+    font-size: 20px;
+    margin: 40px;
+    height: 500px;
+    width: 250px;
+}
+
+.success-story-container p {
+    position: relative;
+    right: 4px;
+}
+
+.desc {
+    position: absolute;
+    right: 3rem;
+}
+
+.services {
+    position: absolute;
+    top: 302rem;
+    left: 29rem;
+}
+
+.service-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.service-item a {
+    font-size: 20px;
+    color:rgb(22, 58, 179)
+}
+
+.links-container {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    background-color: black;
+}
+
+.items {
+    position: absolute;
+    top: 5px;
+    left: 34rem;
+}
+
+.link-item {
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 1px white solid;
+    font-size: 15px;
+}
+
+.link-item a:active, .link-item a:hover, .link-item a:link, .link-item a:visited {
+    color: white;
+}
+
+.tos {
+    border-right: none;
+}
+
+.social-links {
+    position: relative;
+    top: 3rem;
+    left: 43rem;
+}
+
+.social-links i {
+    color: white;
+}
+
+.social {
+    display: inline-block;
+    height: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.fake-copyright {
+    position: relative;
+    top: 5rem;
+    left: 41rem;
+    color: white;
+}
+
+.copyright {
+    position: relative;
+    left: 3.5rem;
+    width: 100%;
+    color: white;
+}
+
+.credit {
+    position: relative;
+
+}
+
+.footer {
+    position: relative;
+    top: 235rem;
+    width: 100%;
+    height: 290px;
+    background-color: rgb(39, 39, 44);
+}
