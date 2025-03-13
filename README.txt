@@ -1,5 +1,3 @@
-Manifested by Nic Curry
-
 This is a banking landing page made with HTML5, CSS, Bootstrap 5, and Native Javascript.
 
 This is meant to showcase my abilities as a front end engineer and show that I am compontent in using these tools
